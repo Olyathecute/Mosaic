@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Puzzle</title>
+    <link rel="stylesheet" type="text/css" href="mosaic.css">
+</head>
+<body>
+    <h1>Puzzle "Pyatnashki"</h1>
+    <h2>Collect the puzzle by moving the blocks!</h2>
+
+    <div style="text-align: center">
+    <button onclick="newGame()" id="start">Start</button> 
+    </div>
+    
+    <table>
+        <tr>
+            <td id="cell1"><input type="button" onclick="move(this.id)" id="1"  value="1"></td>
+            <td id="cell2"><input type="button" onclick="move(this.id)" id="2"  value="2"></td>
+            <td id="cell3"><input type="button" onclick="move(this.id)" id="3"  value="3"></td>
+            <td id="cell4"><input type="button" onclick="move(this.id)" id="4"  value="4"></td>
+        </tr>
+        <tr>
+            <td id="cell5"><input type="button" onclick="move(this.id)" id="5"  value="5"></td>
+            <td id="cell6"><input type="button" onclick="move(this.id)" id="6"  value="6"></td>
+            <td id="cell7"><input type="button" onclick="move(this.id)" id="7"  value="7"></td>
+            <td id="cell8"><input type="button" onclick="move(this.id)" id="8"  value="8"></td>
+        </tr>
+        <tr>
+            <td id="cell9"><input type="button" onclick="move(this.id)" id="9"  value="9"></td>
+            <td id="cell10"><input type="button" onclick="move(this.id)" id="10"  value="10"></td>
+            <td id="cell11"><input type="button" onclick="move(this.id)" id="11"  value="11"></td>
+            <td id="cell12"><input type="button" onclick="move(this.id)" id="12"  value="12"></td>
+        </tr>
+        <tr>
+            <td id="cell13"><input type="button" onclick="move(this.id)" id="13"  value="13"></td>
+            <td id="cell14"><input type="button" onclick="move(this.id)" id="14"  value="14"></td>
+            <td id="cell15"><input type="button" onclick="move(this.id)" id="15"  value="15"></td>
+            <td id="cell16"></td>  
+        </tr>
+    </table>
+
+<script src="mosaic.js"></script>
+</body>
+</html>
